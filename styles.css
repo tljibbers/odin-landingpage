@@ -1,0 +1,122 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.FirstHeader {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+    
+}
+
+.SameLine {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+
+
+.HeaderLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+
+.Container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.AwesomeWeb {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-bottom: 100px;
+ 
+}
+
+.text1 {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.text2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.button1 {
+    margin-left: 0px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 5px;
+}
+
+#hedgehog {
+    height: 300px;
+    width: 400px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+button {
+    margin: auto;
+}
+
+.info {
+    max-width: 150px;
+    margin-bottom: 100px;
+
+}
+
+/* Second Header */
+
+.CollectiveImage {
+    max-width: 150px;
+    max-height: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 15px;
+
+}
+
+.SecondHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+#Top{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.SecondContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
